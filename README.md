@@ -1,0 +1,1 @@
+Repositório criado para o treinamento de GIT.
