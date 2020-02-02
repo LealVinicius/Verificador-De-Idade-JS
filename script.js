@@ -12,3 +12,7 @@ function verificar() {
 function noname() {
 
 }
+
+function dois () {
+    
+}
