@@ -19,20 +19,18 @@
                 <input type="number" name="idade" id="idcampoidade" min="1900" max="2020">
             </p>
             <p>Sexo:
-                    <input type="radio" name="sexo" id="masc">
-                    <label for="sexo">Masculino</label>
-                    <input type="radio" name="sexo" id="fem">
-                    <label for="sexo">Feminino</label>
+                <input type="radio" name="sexo" id="masc">
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="sexo">Feminino</label>
             </p>
-        
+            <input type="button" value="Verificar" id="btnEnviar" onclick="verificar()">
         </div>
         </div>
-        <div></div>
-        <input type="button" value="Verificar" id="btnEnviar" onclick="verificar()">
-                <!--Ano de nascimento
-       
-        Botão verificar
-    -->
+        <div id="res">
+            Preencha os campos para ver o resultado.
+        </div>
+
 
     </section>
     <script src="script.js"></script>
