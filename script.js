@@ -28,9 +28,9 @@ function verificar() {
             genero = 'Mulher'
             if (idade >= 0 && idade < 2) {
                 img.setAttribute('src', 'images/bebemenina.png')
-            } else if (idade <15) {
+            } else if (idade < 15) {
                 img.setAttribute('src', 'images/menina.png')
-            } else if (idade <22) {
+            } else if (idade < 22) {
                 img.setAttribute('src', 'images/moca.png')
             } else if (idade < 48) {
                 img.setAttribute('src', 'images/mulher.png')
@@ -38,12 +38,12 @@ function verificar() {
                 img.setAttribute('src', 'images/velha.png')
             }
         }
-        if(idade == 1){
+        if (idade == 1) {
             res.innerHTML = `Detectamos um ${genero} com ${idade} ano`
         } else {
             res.innerHTML = `Detectamos um ${genero} com ${idade} anos`
         }
-       
+
         res.appendChild(img)
     }
 
